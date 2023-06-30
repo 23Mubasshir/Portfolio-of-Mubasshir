@@ -1,0 +1,15 @@
+.name-style {
+  font-family: "Belanosima", sans-serif;
+  font-size: 32px;
+}
+.li-style {
+  font-family: "Varela Round", sans-serif;
+  font-size: 13px;
+  color: rgb(117, 117, 117);
+}
+
+.navbar-style {
+  position: fixed;
+  z-index: 9999;
+  top: 30px;
+}

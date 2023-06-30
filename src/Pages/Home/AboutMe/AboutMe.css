@@ -1,0 +1,35 @@
+.text-style-profile {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: -5px;
+  line-height: 65px;
+}
+
+.text-style-paragraph {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  letter-spacing: -2px;
+  line-height: 35px;
+}
+
+.image-hover {
+  --s: 450px; /* the size of the image */
+  --b: 8px; /* the border thickness*/
+  --g: 8px; /* the gap */
+  --c: #3c7bc2e5; /* the color */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / 2) solid rgba(0, 0, 0, 0);
+  outline-offset: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.image-hover:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+.image-hover + .image-hover {
+  border-radius: 50%;
+}
