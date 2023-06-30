@@ -41,7 +41,7 @@ const Contact = () => {
               download target="_blank"
               rel="noreferrer"
             >
-              <button className="mt-[85px] button-90 w-2/5 mx-5 btn rounded-full li-style css-background shadow-2xl ">
+              <button className="mt-[30px] md:mt-[85px] button-90 w-2/5 mx-5 btn rounded-full li-style css-background shadow-2xl ">
                 Download Resume
               </button>
             </a>

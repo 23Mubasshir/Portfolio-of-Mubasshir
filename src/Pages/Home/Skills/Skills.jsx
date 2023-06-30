@@ -6,7 +6,7 @@ const Skills = () => {
 
     return (
         <div id="skills" className=' pt-52 lg:pt-80'>
-            <h1 className='mb-8 leading-[50px] text-left uppercase header-text text-[60px] md:text-[60px] lg:text-[120px]'>Technologies <span className=' ps-2 text-[30px] lg:text-[40px]' >That I use.</span></h1>
+            <h1 className='mb-8 leading-[50px] text-left uppercase header-text text-[50px] md:text-[60px] lg:text-[120px]'>Technologies <span className=' ps-2 text-[30px] lg:text-[40px]' >That I use.</span></h1>
             <div className=' '>
             <div className='grid grid-cols-4 md:grid-cols-6 lg:grid-cols-10  text-[#353535d5]'>
             <SiHtml5 className="w-20 h-20 mx-4 my-4" />
