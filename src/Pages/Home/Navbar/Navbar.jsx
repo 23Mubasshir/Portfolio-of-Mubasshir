@@ -16,10 +16,10 @@ const Navbar = () => {
 
   return (
     <div className="flex justify-center">
-      <div className="navbar-style navbar bg-white rounded-3xl shadow-2xl  w-4/5 ">
+      <div className="navbar-style navbar bg-white rounded-3xl shadow-2xl  w-4/5 p-0 md:p-2">
         <div className="navbar-start">
           <div className="dropdown ">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden pr-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -42,7 +42,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a href="/" className="mx-5 name-style">Mubasshir</a>
+          <a href="/" className="md:mx-5 name-style text-[18px] xs:text-[25px] md:text-[32px] ">Mubasshir</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItems}</ul>

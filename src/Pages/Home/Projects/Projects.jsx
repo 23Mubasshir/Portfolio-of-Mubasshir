@@ -6,8 +6,8 @@ import "./projects.css";
 const Projects = () => {
   return (
     <div id="projects" className="pt-44 lg:pt-96">
-      <h1 className="mb-8 leading-[50px] text-left uppercase header-text text-[60px] md:text-[60px] lg:text-[120px]">
-        <span className="text-[30px] lg:text-[30px] mr-8">Some of my</span>
+      <h1 className="mb-8 leading-[50px] text-left uppercase header-text text-[40px] xs:text-[50px] md:text-[60px] lg:text-[120px]">
+        <span className="text-[20px] xs:text-[30px]  mr-2 mx:mr-8">Some of my </span>
         Projects{" "}
       </h1>
 
@@ -15,14 +15,17 @@ const Projects = () => {
         <img className="image__img" src={img2} alt="" />
         <div className="image__overlay image__overlay--primary">
           <div className="p-4 md:p-8 lg:p-36 lg:mt-12">
-            <h1 className="text-[10px] md:text-[15px] pb-1 lg:text-[80px]">
+            <h1
+              className="text-[15px] 
+            xs:text-[20px] xs:pb-1 lg:text-[80px]"
+            >
               Chit-Chat Academy
             </h1>
-            <p className="text-[8px] md:text-[12px] pb-2 lg:text-[20px]">
+            <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
               This Website is mainly a language learning platform, where users
               can take different classes of instructors.
             </p>
-            <p className="text-[6px] md:text-[10px] lg:text-[15px] lg:pt-8">
+            <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
               This website is built with react js and firebase is used as
               authentication. Node.js and mongoDB are used to load all the data
               for the website. This project is mainly focused on different
@@ -42,7 +45,7 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="my-2 lg:my-6 btn btn-sm lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
+              <button className="xs:my-2 lg:my-6 btn btn-sm md:btn-md lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
                 Live link
               </button>
             </a>
@@ -54,15 +57,18 @@ const Projects = () => {
         <img className="image__img" src={img3} alt="" />
         <div className="image__overlay image__overlay--primary">
           <div className="p-4 md:p-8 lg:p-36 lg:mt-12">
-            <h1 className="text-[10px] md:text-[15px] pb-1 lg:text-[80px]">
+            <h1
+              className="text-[15px] 
+            xs:text-[20px] xs:pb-1 lg:text-[80px]"
+            >
               Tokyo Kitchen
             </h1>
-            <p className="text-[8px] md:text-[12px] pb-2 lg:text-[20px]">
+            <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
               This project is mainly a Japanese Recipe site named Tokyo Kitchen
               where chefs posts there recipes and blogs. There are some best
               features of my project:
             </p>
-            <p className="text-[6px] md:text-[10px] lg:text-[15px] lg:pt-8">
+            <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
               On the home page there initially there are Chefs information also
               there is a view recipe button it takes user to that chef&apos;s
               recipe page . There is a sign in and Sign up button on the header
@@ -80,27 +86,29 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="my-2 lg:my-6 btn btn-sm lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
+              <button className="xs:my-2 lg:my-6 btn btn-sm md:btn-md lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
                 Live link
               </button>
             </a>
           </div>
         </div>
       </div>
-
       <div className="image my-8 lg:my-32">
         <img className="image__img" src={img1} alt="" />
         <div className="image__overlay image__overlay--primary">
           <div className="p-4 md:p-8 lg:p-36 lg:mt-12">
-            <h1 className="text-[10px] md:text-[15px] pb-1 lg:text-[80px]">
+            <h1
+              className="text-[15px] 
+            xs:text-[20px] xs:pb-1 lg:text-[80px]"
+            >
               Anime ToyWorld
             </h1>
-            <p className="text-[8px] md:text-[12px] pb-2 lg:text-[20px]">
-              This project is mainly an action figure selling site named Anime
+            <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
+            This project is mainly an action figure selling site named Anime
               ToyWorld, where sellers post their items to sell.
             </p>
-            <p className="text-[6px] md:text-[10px] lg:text-[15px] lg:pt-8">
-              There is an add toys page where a seller can post the product.
+            <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
+            There is an add toys page where a seller can post the product.
               Also, the seller can update or delete that product. On the All
               Toys page, any user can see all the products and search for the
               products. There is a sign-in and sign-up button on the header.
@@ -120,13 +128,14 @@ const Projects = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <button className="my-2 lg:my-6 btn btn-sm lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
+              <button className="xs:my-2 lg:my-6 btn btn-sm md:btn-md lg:btn-lg bg-transparent text-[8px] lg:text-[18px] text-white hover:text-black">
                 Live link
               </button>
             </a>
           </div>
         </div>
       </div>
+
     </div>
   );
 };
