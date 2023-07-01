@@ -42,7 +42,7 @@ const Navbar = () => {
               {navItems}
             </ul>
           </div>
-          <a href="/" className="md:mx-5 name-style text-[18px] xs:text-[25px] md:text-[32px] ">Mubasshir</a>
+          <a href="/" className="md:mx-5 name-style text-[20px] xs:text-[25px] md:text-[32px] ">Mubasshir</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navItems}</ul>

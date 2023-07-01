@@ -14,8 +14,8 @@ const Banner = () => {
               Mubasshir
             </h1>
 
-            <h1 className="text-style text-[50px] md:text-[80px] lg:text-[120px] space-x-[-15] font-light text-black text-opacity-80 mb-12 md:mb-24 leading-[60px]  md:leading-[80px] tracking-[-0.1em]">
-              <span className="font-light  ">A</span> Web Developer
+            <h1 className="text-style text-[50px] md:text-[80px] lg:text-[120px] space-x-[-15] text-black text-opacity-80 mb-12 md:mb-24 leading-[60px]  md:leading-[80px] tracking-[-0.08em]">
+              A Web Developer
             </h1>
 
             <a href="#contact">
