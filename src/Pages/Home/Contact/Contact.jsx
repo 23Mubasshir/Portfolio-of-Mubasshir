@@ -2,6 +2,8 @@ import { useRef } from "react";
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2'
+import { FaDownload } from "react-icons/fa";
+import { BsSendFill } from "react-icons/bs";
 
 const Contact = () => {
 
@@ -41,7 +43,7 @@ const Contact = () => {
               rel="noreferrer"
             >
               <button className="mt-[30px] md:mt-[85px] button-90 xs:w-2/5 mx-5 btn rounded-full li-style css-background shadow-2xl ">
-                Download Resume
+              <FaDownload/> Resume
               </button>
             </a>
       </div>
@@ -104,7 +106,7 @@ const Contact = () => {
         </div>
         <div className="form-control">
         <button className="mt-6 button-90 w-2/5 btn rounded-full li-style css-background shadow-2xl mx-auto ">
-          Submit{" "}
+        <BsSendFill/> Submit{" "}
         </button>
         </div>
         

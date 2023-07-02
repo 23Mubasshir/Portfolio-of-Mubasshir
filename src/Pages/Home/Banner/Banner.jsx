@@ -1,4 +1,6 @@
 import "./Banner.css";
+import { FaDownload } from 'react-icons/fa';
+import { BiSolidMessageDots } from 'react-icons/bi';
 
 const Banner = () => {
   return (
@@ -18,21 +20,23 @@ const Banner = () => {
               A Web Developer
             </h1>
 
-            <a href="#contact">
-            <button className="button-90  w-1/2 md:w-2/5 mx-5 my-4 btn rounded-full li-style css-background shadow-2xl ">
-              Let&apos;s Talk
-            </button>
-            </a>
-
             <a
-              href="https://drive.google.com/file/d/1_Ht1qtH5XMoZvBVIRuhRPzpFpNuQxNMW/view?usp=sharing "
-              target="_blank"
+              href="https://drive.google.com/u/0/uc?id=1_Ht1qtH5XMoZvBVIRuhRPzpFpNuQxNMW&export=download"
+              download target="_blank"
               rel="noreferrer"
             >
               <button className="button-90 w-1/2 md:w-2/5 mx-5 btn rounded-full li-style css-background shadow-2xl ">
-                View Resume
+              <FaDownload /> Resume
               </button>
             </a>
+
+            <a href="#contact">
+            <button className="button-90  w-1/2 md:w-2/5 mx-5 my-4 btn rounded-full li-style css-background shadow-2xl ">
+             <BiSolidMessageDots className="w-[16px] h-[16px]"/> Let&apos;s Talk
+            </button>
+            </a>
+
+            
           </div>
         </div>
       </div>
