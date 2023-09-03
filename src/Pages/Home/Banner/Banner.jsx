@@ -25,13 +25,13 @@ const Banner = () => {
               download target="_blank"
               rel="noreferrer"
             >
-              <button className="button-90 w-1/2 md:w-2/5 mx-5 btn rounded-full li-style css-background shadow-2xl ">
+              <button className="button-90 w-1/2 md:w-2/5 mx-5 btn rounded-full li-style css-background-2 shadow-2xl">
               <FaDownload /> Resume
               </button>
             </a>
 
             <a href="#contact">
-            <button className="button-90  w-1/2 md:w-2/5 mx-5 my-4 btn rounded-full li-style css-background shadow-2xl ">
+            <button className="button-90  w-1/2 md:w-2/5 mx-5 my-4 btn rounded-full li-style css-background-2 shadow-2xl ">
              <BiSolidMessageDots className="w-[16px] h-[16px]"/> Let&apos;s Talk
             </button>
             </a>

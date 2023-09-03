@@ -9,9 +9,9 @@ const Footer = () => {
       >
         <div className="grid xs:grid-flow-col gap-4">
           <a href="#about-me" className="link link-hover">About me</a>
-          <a href="contact" className="link link-hover">Contact</a>
-          <a href="skills" className="link link-hover">Skills</a>
-          <a href="projects" className="link link-hover">Projects</a>
+          <a href="#contact" className="link link-hover">Contact</a>
+          <a href="#skills" className="link link-hover">Skills</a>
+          <a href="#projects" className="link link-hover">Projects</a>
         </div>
         <div>
           <h1 className="text-center text-2xl font-bold my-4">Find me on</h1>

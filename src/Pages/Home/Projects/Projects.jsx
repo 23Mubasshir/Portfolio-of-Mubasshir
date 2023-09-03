@@ -7,7 +7,9 @@ const Projects = () => {
   return (
     <div id="projects" className="pt-44 lg:pt-96">
       <h1 className="mb-8 leading-[50px] text-left uppercase header-text text-[40px] xs:text-[50px] md:text-[60px] lg:text-[120px]">
-        <span className="text-[20px] xs:text-[30px]  mr-2 mx:mr-8">Some of my </span>
+        <span className="text-[20px] xs:text-[30px]  mr-2 mx:mr-8">
+          Some of my{" "}
+        </span>
         Projects{" "}
       </h1>
 
@@ -22,22 +24,22 @@ const Projects = () => {
               Chit-Chat Academy
             </h1>
             <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
-              This Website is mainly a language learning platform, where users
-              can take different classes of instructors.
+              This website is mainly a language learning platform where users
+              can take different classes with different instructors.
             </p>
             <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
-              This website is built with react js and firebase is used as
-              authentication. Node.js and mongoDB are used to load all the data
+              This website is built with React JS and Firebase is used for
+              authentication. Node.js and MongoDB are used to load all the data
               for the website. This project is mainly focused on different
-              authorization. There are three types of users. Instructors and
-              admin are among them. In the Admin Dashboard admin can manage
-              users and delete or make a user instructor. Also there are managed
-              classes where the admin can approve or deny or send feedback to
-              the instructor if the classes need improvement. Usually after
-              login the user is set as a normal user. Only an admin can make a
-              user instructor. In the Instructor Dashboard the instructor can
-              add. Update and see their classes status and in the user dashboard
-              users can see their selected classes.
+              authorizations. There are three types of users. Instructors and
+              admin are among them. In the admin dashboard, admin can manage
+              users, delete them, or make them instructors. Also, there are
+              managed classes where the admin can approve, deny, or send
+              feedback to the instructor if the classes need improvement.
+              Usually, after login, the user is set as a normal user. Only an
+              admin can make a user an instructor. In the instructor dashboard,
+              the instructor can add Update and see their classes status, and in
+              the user dashboard, users can see their selected classes.
             </p>
 
             <a
@@ -64,21 +66,22 @@ const Projects = () => {
               Tokyo Kitchen
             </h1>
             <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
-              This project is mainly a Japanese Recipe site named Tokyo Kitchen
-              where chefs posts there recipes and blogs. There are some best
-              features of my project:
+              This project is mainly a Japanese recipe site named Tokyo Kitchen,
+              where chefs post their recipes and blogs. There are some of the
+              best features of my project:
             </p>
             <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
-              On the home page there initially there are Chefs information also
-              there is a view recipe button it takes user to that chef&apos;s
-              recipe page . There is a sign in and Sign up button on the header
-              user can sign up using github and google account also can sign up
-              with name, photoURL, email and password. On the Home page there is
-              a section called our services which tells the purpose of the
-              website. Chef&apos;s recipes are private protected to visit the
-              recipe page user have to log into the site. This website is build
-              on react and the home page is responsive also firebase is used as
-              a backend. A server is used to load all the data for the website.
+              On the home page, initially, there is chef information, and there
+              is a view recipe button that takes the user to that chef&#39;s
+              recipe page. There is a sign-in and sign-up button on the header.
+              Users can sign up using github and Google accounts. They can also
+              sign up with their name, photo URL, email, and password. On the
+              home page, there is a section called our services, which explains
+              the purpose of the website. Chef&#39;s recipes are private. To
+              visit the recipe page, users have to log into the site. This
+              website is built on React, and the home page is responsive.
+              Firebase is also used as a backend. A server is used to load all
+              the data for the website.
             </p>
 
             <a
@@ -104,23 +107,23 @@ const Projects = () => {
               Anime ToyWorld
             </h1>
             <p className="text-[10px] xs:text-[15px] pb-2 lg:text-[20px]">
-            This project is mainly an action figure selling site named Anime
+              This project is mainly an action figure selling site named Anime
               ToyWorld, where sellers post their items to sell.
             </p>
             <p className="hidden sm:block sm:text-[9px] md:text-[10px] lg:text-[15px] lg:pt-8">
-            There is an add toys page where a seller can post the product.
+              There is an add toys page where a seller can post the product.
               Also, the seller can update or delete that product. On the All
-              Toys page, any user can see all the products and search for the
-              products. There is a sign-in and sign-up button on the header.
-              Users can sign up using their Google account or with their name,
-              photo URL, email, and password. On the home page, there is a
-              banner, status, gallery, best seller, and why we are the best
-              section. Also, a logo has been used to make the website more
-              attractive. There are some pages like my toys, add toys, and view
-              details which are protected routes. Users have to login to access
-              those pages. This website is built on React, and the home page is
-              responsive. Firebase is also used for authentication. MongoDB is
-              used to load all the data for the website.
+              Toys page, any user can see all the products and search for them.
+              There is a sign-in and sign-up button on the header. Users can
+              sign up using their Google account or with their name, photo URL,
+              email, and password. On the home page, there is a banner, status,
+              gallery, best seller, and why we are the best section. Also, a
+              logo has been used to make the website more attractive. There are
+              some pages, like my toys, add toys, and view details, that are
+              protected routes. Users have to login to access those pages. This
+              website is built on React, and the home page is responsive.
+              Firebase is also used for authentication. MongoDB is used to load
+              all the data for the website.
             </p>
 
             <a
@@ -135,7 +138,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
